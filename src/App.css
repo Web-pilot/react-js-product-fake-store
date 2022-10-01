@@ -246,6 +246,9 @@ a {
       line-height: 25px;
       text-align: justify;
     }
+    .hero_section_container h1 {
+      font-size: 20px;
+    }
 }
 
 /* latest side */
