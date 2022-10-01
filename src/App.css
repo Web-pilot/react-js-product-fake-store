@@ -156,7 +156,7 @@ a {
   flex-wrap: wrap;
   display: flex;
   border-radius: 5px;
-  padding: 5px;
+  padding: 10px;
   margin: 5px;
 }
 
@@ -249,17 +249,16 @@ a {
 }
 
 /* latest side */
+.flex_box_container  {
+  display: flex;
+  justify-content: center;
+
+}
 .latest_recipe_container .flex_box_container img {
   width: 100%;
   height: 100px;
 }
 
-
-.flex_box_container  {
- display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .latest_recipe_list {
 list-style: none;
 
@@ -345,4 +344,17 @@ list-style: none;
 .pagination span:hover  {
   color: white;
   background: var(--secondary-text-color);
+}
+
+@media screen and (max-width: 768px) {
+  .flex_box_container  {
+   flex-direction: column;
+   margin: 20px;
+   }
+
+   .latest_recipe_container .flex_box_container img {
+    width: 100%;
+    height: 200px;
+  }
+  
 }
