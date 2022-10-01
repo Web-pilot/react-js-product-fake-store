@@ -252,7 +252,7 @@ a {
 .flex_box_container  {
   display: flex;
   justify-content: center;
-
+  margin: 20px;
 }
 .latest_recipe_container .flex_box_container img {
   width: 100%;
@@ -269,9 +269,9 @@ list-style: none;
   margin-bottom: 10px;
 }
 
-.latest_recipe_list a {
-  color: var(--primary-color);
-  font-size: 15px;
+.latest_recipe_list h3 {
+  font-size: 16px;
+  opacity: 0.8;
 }
 .single_product_container {
   height:96vh;
